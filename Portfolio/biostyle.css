@@ -1,0 +1,36 @@
+body {
+  background-color: bisque;
+}
+
+#container {
+  display: flex;
+}
+
+#h1 {
+}
+
+#p {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  /* width:100px; */
+  height: 550px;
+  margin: 20px;
+}
+#image {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  /* width:100px; */
+  height: 550px;
+  margin: 20px;
+  order: -2;
+}
+#footer {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  /* width:100px; */
+  height: 75px;
+  margin: 20px;
+}
