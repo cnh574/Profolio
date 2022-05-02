@@ -1,0 +1,197 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 100%;
+  min-height: 100vh;
+  border: 5px solid black;
+}
+#container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  display: grid;
+  background-color: #fff;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+#leftContainer {
+  position: relative;
+  background-color: #003147;
+  padding: 40px;
+}
+
+#section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+#section1.h2 {
+  font-size: 3.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+#section1.h3 {
+  font-size: 0.6em;
+  font-weight: 100;
+  font-style: italic;
+}
+#section2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: medium;
+}
+
+#section2.h4 {
+  margin-top: 20px;
+  line-height: 2em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: large;
+}
+
+#section3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 70px;
+}
+#skills {
+  font-size: 1em;
+  align-items: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: #fff;
+}
+#skills2 {
+  position: relative;
+  list-style-type: circle;
+  color: #fff;
+  letter-spacing: 2px;
+}
+#rightContainer {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+}
+
+#bodyText {
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+#bodyText.h2 {
+  display: flex;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+#jobTitle {
+  line-height: 3.4em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+#jobTitle2 {
+  line-height: 3.4em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+#jobTitle3 {
+  line-height: 3.4em;
+  margin-bottom: 1px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+#education {
+  line-height: 3.4em;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 2.4em;
+  display: flex;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+#footer {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  position: sticky;
+  color: palevioletred;
+  font-size: large;
+  top: 100%;
+  margin-right: 20px;
+}
+#contact {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  position: sticky;
+  color: palevioletred;
+  font-size: large;
+  top: 100%;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+#linkedin {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: blue;
+}
+#Github {
+  margin-right: 10px;
+  color: blue;
+}
+
+#home {
+  list-style: none;
+  margin-right: 15px;
+  color: #003147;
+  font-weight: bolder;
+}
+
+#Bio {
+  list-style: none;
+  margin-right: 15px;
+  color: #003147;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+#projects {
+  list-style: none;
+  margin-right: 15px;
+  color: #003147;
+  font-weight: bolder;
+}
+#navbar {
+  margin-top: 30px;
+}
