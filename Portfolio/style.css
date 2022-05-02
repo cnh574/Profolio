@@ -1,19 +1,106 @@
 body {
-  background-color: blueviolet;
+  background-color: aliceblue;
+  background-position: 0 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 100%;
 }
 
+#container {
+  /* background-color: purple; */
+  /* padding: 200px;
+  height: 700px;
+  max-width: 100%;
+  margin-top: 50px; */
+  min-height: 100vh;
+}
 h1 {
-  color: hotpink;
+  text-align: center;
+}
+#text {
+  text-align: center;
+  font-size: larger;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 53px;
 }
 
 #btn1 {
-  background-color: aqua;
+  background-color: rgb(102, 211, 211);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 #btn2 {
-  background-color: pink;
+  background-color: rgb(102, 211, 211);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 #btn3 {
-  background-color: lightsalmon;
+  background-color: rgb(102, 211, 211);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#picture {
+  margin-top: 1px;
+  height: 400px;
+  width: 600px;
+  margin-top: 40px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  position: sticky;
+  color: palevioletred;
+  font-size: xx-large;
+  top: 100%;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+#Github {
+  padding: 10px;
+  color: blue;
+}
+#instagram {
+  padding: 10px;
+  color: blue;
+}
+
+#linkedin {
+  padding: 10px;
+  color: blue;
 }
