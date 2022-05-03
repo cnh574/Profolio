@@ -5,7 +5,7 @@ $(() => {
     .attr("id", "Home")
     .appendTo($("#navbar"));
   $("#Home").on("click", () => {
-    location.href = "https://rainbow-kleicha-0d92b4.netlify.app/";
+    location.href = "/Portfolio/resume/index.html";
   });
 });
 
