@@ -30,3 +30,6 @@ Used basic sturcture of html
 Used jquery to create all webpage content, store photos , create click events to navigate to other pages, color changing and create pop up alert. 
 *Each page has a navigation bar with remaining pages in the app and a contact links in the footer.
 Also all pages contain  mobile friendly tags.
+
+Problem///
+still unable to deploy project links do not work once deploy but works on local
