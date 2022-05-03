@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: aliceblue;
+  min-height: 100vh;
+  border: 5px solid black;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 100%;
+  font-family: "Patrick Hand", cursive;
+  font-size: x-large;
+}
+
+#navbar {
+  margin-top: 19px;
+}
+
+#home {
+  padding: 20px;
+  color: #003147;
+  margin-top: 5px;
+}
+#resume {
+  padding: 20px;
+  color: #003147;
+  margin-top: 5px;
+}
+#projects {
+  padding: 20px;
+  color: #003147;
+  margin-top: 5px;
+}
+
+#image {
+  margin-top: 10rem;
+  margin-right: 20px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  position: sticky;
+  color: palevioletred;
+  font-size: xx-large;
+  top: 100%;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+#Github {
+  padding: 10px;
+  color: blue;
+}
+
+#linkedin {
+  padding: 10px;
+  color: blue;
+}
+
+#container {
+  line-height: 50px;
+  align-items: center;
+}
+#floated {
+  float: left;
+  margin-top: 35px;
+  padding: 20px;
+  margin-right: 20px;
+}

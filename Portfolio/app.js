@@ -2,21 +2,21 @@ $(() => {
   $("<div>").attr("id", "navbar").appendTo("#container");
   $("<div>").attr("id", "btn2").text("Resume").appendTo("#navbar");
   $("#btn2").on("click", () => {
-    location.href = "/Portfolio/Resumeindex.html";
+    location.href = "/Portfolio/resume/index.html";
   });
 });
 
 $(() => {
   $("<div>").attr("id", "btn3").text("Bio").appendTo("#navbar");
   $("#btn3").on("click", () => {
-    location.href = "/Portfolio/bioindex.html";
+    location.href = "/Portfolio/bio/index.html";
   });
 });
 
 $(() => {
   $("<div>").attr("id", "btn1").text("Projects").appendTo("#navbar");
   $("#btn1").on("click", () => {
-    location.href = "/Portfolio/projectindex.html";
+    location.href = "/Portfolio/project/index.html";
   });
 });
 
