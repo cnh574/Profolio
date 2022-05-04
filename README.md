@@ -31,5 +31,9 @@ Used jquery to create all webpage content, store photos , create click events to
 *Each page has a navigation bar with remaining pages in the app and a contact links in the footer.
 Also all pages contain  mobile friendly tags.
 
-Problem///
-still unable to deploy project links do not work once deploy but works on local
+Installation
+Create new repo on gihub, clone repo, add project folder, add and commit changes , push to main, open new browser and paste in the name of new repo / "Project folder name"
+
+Problem///Improvements
+
+My picture for my bio page is not displaying on site but displayed when I ran site locally.I could look into changing the way I set paths for different things on my site. ALso adding more content.
