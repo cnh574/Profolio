@@ -5,7 +5,7 @@ $(() => {
     .attr("id", "Home")
     .appendTo($("#navbar"));
   $("#Home").on("click", () => {
-    location.href = "/Portfolio/resume/index.html";
+    location.href = "/Portfolio/index.html";
   });
 });
 
